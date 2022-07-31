@@ -1,0 +1,64 @@
+/**
+ * Custom theme
+ */
+
+ [data-theme=light],
+ :root:not([data-theme=dark]) {
+ color-scheme: light;
+ --primary: #1e88e5;
+ }
+
+nav {
+  margin-top: -50px;
+  float:right;
+ }
+ 
+.hero {
+  font-size: 50px;
+  font-weight: bolder;
+ }
+
+.subhero {
+  font-size: 25px;
+  margin-top: -40px;
+  margin-left: 65px;
+}
+
+.up {
+  margin-top: -200px;
+}
+
+.redu {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+ 
+@media screen and (max-width: 30em) {
+  .hero {
+    font-size: 27px;
+    font-weight: bolder;
+  }
+
+  .subhero {
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 35px;
+  }
+
+  .up {
+    margin-top: -100px;
+  }
+
+  .redu {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+hgroup {
+   text-align: center;
+ }
+
+ul li {
+  list-style: none;
+}
