@@ -18,6 +18,10 @@ switch (destiny) {
     case "landbot": 
         window.location = "https://get.landbotlab.com/obteo";
         break;
+    
+    case "tugan": 
+        window.location = "https://www.tugan.ai/?via=obteo";
+        break;
         
     default:
         window.location = "https://obteo.com";
